@@ -1,11 +1,11 @@
 class Author
-    attr_accessor :name 
-    @@all = []
+    attr_accessor :name
 
-    def initialize 
+    def initialize
         @name = name
     end
-    def save
-        @all << self
+
+    def name
+        @name
     end
 end
